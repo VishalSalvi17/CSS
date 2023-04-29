@@ -1,0 +1,116 @@
+*
+{
+    padding: 10px;
+    margin: 10px;
+}
+.transform
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform:hover
+{
+    transform: translate(50px, 50px);
+}
+
+.transform2
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform2:hover
+{
+    transform: rotate(20deg);
+}
+
+.transform3
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform3:hover
+{
+    transform: scale(0.8, 0.7)
+}
+
+.transform4
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform4:hover
+{
+    transform: translate(50px, 50px);
+}
+
+.transform5
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform5:hover
+{
+    transform: skew(20deg)
+}
+
+.transform6
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform6:hover
+{
+    transform: skew(50deg);
+}
+
+.transform7
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform7:hover
+{
+    transform: translate(50px, 50px);
+}
+
+.transform8
+{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    height: 20px;
+    padding: 10px 15px;
+}
+
+.transform8:hover
+{
+    transform: translate(50px, 50px);
+}

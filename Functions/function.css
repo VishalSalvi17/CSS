@@ -1,0 +1,35 @@
+:root
+{
+    --color: brown;
+    --background-color: rgb(200, 255, 0);
+    --border-color: 5px solid rgb(236, 17, 17);
+    --primary-color:teal;
+    
+}
+
+.box
+{
+    /* border: 2px solid black; */
+    border: var(--border-color);
+    width: 500px;
+    padding: 10px;
+}
+h1
+{
+    /* color: blue;
+    background-color:cyan; */
+    color: var(--color);
+    background-color: var(--background-color);
+}
+h2
+{
+    /* color:blueviolet;
+    background-color: cyan; */
+    color: var(--color);
+    background-color: var(--background-color);
+}
+p
+{
+    /* color:brown */
+    color: var(--color);
+}

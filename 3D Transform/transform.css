@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.first
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+}
+.sec
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(50px,0px,0px);
+    transform: perspective(300px) rotate3d(50,0,0,20deg);
+}
+.first1
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+}
+.sec1
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(50px,0px,0px);
+    transform: perspective(300px) scale3d(50,0,0);
+}
+.first2
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    /* background-color: yellow; */
+}
+.sec2
+{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) translate3d(50px,0px,0px);
+    transform: perspective(300px) skew3d(50,0,0,20deg);
+}

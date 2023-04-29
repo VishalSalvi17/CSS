@@ -1,0 +1,35 @@
+ul.ul
+{
+    list-style-type: square;
+    border: 2px solid purple;
+    list-style-position: inside;
+
+}
+
+ol.ol
+{
+    list-style-type: upper-alpha;
+    border: 2px solid purple;
+    list-style-position: inside;
+}
+
+li
+{
+    border: 2px solid red;
+    
+}
+
+ul.ul1
+{
+    list-style-type: inherit;
+    border: 2px solid purple;
+    list-style-position: outside;
+
+}
+
+ol.ol1
+{
+    list-style-type: lower-roman;
+    border: 2px solid purple;
+    list-style-position: outside;
+}

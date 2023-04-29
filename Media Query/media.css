@@ -1,0 +1,15 @@
+div
+{
+    column-count: 3;
+    text-align: justify;
+    column-gap: 50px;
+    /* column-rule-style: solid;
+    column-rule-color: blue;
+    column-rule-width: 5px; */
+    column-rule: 2px solid brown;
+    column-width: 300px;
+}
+h1
+{
+    column-span: all;
+}

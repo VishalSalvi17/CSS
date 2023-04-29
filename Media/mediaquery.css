@@ -1,0 +1,57 @@
+.div1
+{
+    width: 70%;
+    height: 100px;
+    float: left;
+    background-color: crimson;
+}
+
+.div2
+{
+    width: 30%;
+    height: 100px;
+    float: left;
+    background-color: aqua;
+}
+h1
+{
+    font-size: 60px;
+}
+@media(max-width:768px) 
+{
+   .div1
+   {
+       width: 100%;
+       height: 100px;
+       background-color: aquamarine;
+   } 
+   .div2
+   {
+       width: 100%;
+       height: 100px;
+       background-color: blueviolet;
+   }
+   h1
+   {
+       font-size: 40px;
+   }
+}
+@media(max-width:400px) 
+{
+   .div1
+   {
+       width: 100%;
+       height: 100px;
+       background-color: brown
+   } 
+   .div2
+   {
+       width: 100%;
+       height: 100px;
+       background-color: skyblue
+   }
+   h1
+   {
+       font-size: 30px;
+   }
+}

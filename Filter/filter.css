@@ -1,0 +1,41 @@
+.sunrise
+{
+    padding: 10px;
+    /* width: 1000px;
+    height: 1000px; */
+    
+    
+}
+
+.sunrise1
+{
+    padding: 10px;
+    /* width: 1000px;
+    height: 1000px; */
+    filter: brightness(40%);
+}
+
+.sunrise2
+{
+    padding: 10px;
+    /* width: 1000px;
+    height: 1000px; */
+    filter: contrast(30%);
+}
+
+.sunrise3
+{
+    padding: 10px;
+    /* width: 1000px;
+    height: 1000px; */
+    /* filter: hue-rotate(80%); */
+    filter: saturate(30%);
+}
+
+.sunrise4
+{
+    padding: 10px;
+    /* width: 1000px;
+    height: 1000px; */
+    filter: blur(20px);
+}

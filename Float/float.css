@@ -1,0 +1,64 @@
+img
+{
+    width: 200px;
+    height: 200px
+}
+
+#logo1
+{
+    float: left;
+}
+
+#logo2
+{
+    float: right;
+}
+
+p
+{
+    text-align: justify;
+}
+
+ul
+{
+    background-color: darkred;
+    overflow: auto;
+    color: white;
+}
+li
+{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+    padding: 10px 15px;
+}
+
+.menu
+{
+    width: 50%;
+    height: 400px;
+    background-color: tomato;
+    float: left;
+}
+
+.side
+{
+    width: 50%;
+    height: 400px;
+    background-color: tomato;
+    float: right;
+}
+
+.footer
+{
+    background-color: violet;
+    height: 100px;
+    clear: both;
+}
+
+p
+{
+    padding: 20px;
+    
+}

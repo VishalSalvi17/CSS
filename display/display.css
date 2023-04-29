@@ -1,0 +1,38 @@
+.p1
+{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.p2
+{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    overflow-x: scroll;
+    resize: both;
+}
+/* #box
+{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+} */
+
+.first
+{
+    background-color: teal;
+    color: #fff;
+    display: inline-block;
+    padding: 2px;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+}
+.first:hover
+{
+    color: blue;
+    background-color: #fff;
+}

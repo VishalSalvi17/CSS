@@ -1,0 +1,53 @@
+.menu
+{
+    border: 1px solid black;
+    text-align: center;
+    /* display: inline-flex; */
+    /* display: inline-table; */
+    /* display: inline-block; */
+    background-color: greenyellow;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+ul li
+{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+ul li:hover
+{
+    background-color: crimson;
+    color: #fff;
+}
+
+.formsubmit
+{
+    text-align: center;
+}
+
+input:focus
+{
+    background-color: darkred;
+    color: #fff;
+}

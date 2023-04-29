@@ -1,0 +1,39 @@
+.menu
+{
+    padding: 10px;
+    margin: 30px;
+}
+
+.fir
+{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.sec
+{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -50px;
+    z-index: 1;
+}
+
+.thir
+{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: -100px;
+    z-index: 3;
+}

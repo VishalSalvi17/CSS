@@ -1,0 +1,42 @@
+p::first-line
+{
+    font-size: 30px;
+    color: chocolate;
+}
+
+h1::after
+{
+    content: url(img/logo1.png);
+    /* width: 100px;
+    height: 100px;*/
+} 
+
+h1::before
+{
+    content: url(img/logo1.png);
+    /* width: 100px;
+    height: 100px; */
+}
+
+::selection
+{
+    background-color: crimson;
+    color: cyan;
+}
+
+.first
+{
+width: 500px;
+height: 200px;
+background-color: tomato;
+
+}
+.sec
+{
+    width: 500px;
+    height: 200px;
+    background-color: crimson;
+    padding: 50px;
+    border: 10px solid ;
+    box-sizing: border-box;
+}

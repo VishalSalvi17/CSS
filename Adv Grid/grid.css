@@ -1,0 +1,44 @@
+.parent
+{
+    background-color: crimson;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header header'
+    'menu main main main right right right'
+    'menu footer footer footer footer footer footer'
+    ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.child
+{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+#child-1
+{
+    grid-area: header;
+}
+
+#child-2
+{
+    grid-area: menu;
+}
+
+#child-3
+{
+    grid-area: main;
+}
+
+#child-4
+{
+    grid-area: right;
+}
+#child-5
+{
+    grid-area: footer;
+}
